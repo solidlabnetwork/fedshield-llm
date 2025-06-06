@@ -51,7 +51,7 @@ else:
     else:
         model_name = last_str                       # mainly for base model
 
-question_file = f"/disk/solidlab-server/lclhome/mmia001/fedshield-llm/fedshield-llm/eval_utils/vicuna/question.jsonl"
+question_file = f"/vicuna/question.jsonl"
 answer_file = f"data/mtbench/model_answer/{model_name}.jsonl"
 
 # ============= Load model and tokenizer =============

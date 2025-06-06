@@ -67,7 +67,7 @@ python utils/merge_lora.py --base_model_path "meta-llama/Llama-2-7b-hf" \
 To generate answers using the merged model, use the following command:
 
 ```bash
-python gen_model_answer_mt.py \
+python eval_utils/generate_answer.py \
   --base_model_path /path/to/your/merged/model/checkpoint
 ```
 ## 📝 Generate Answers Using Base Model + LoRA Weights
@@ -75,7 +75,7 @@ python gen_model_answer_mt.py \
 To generate answers using the base model and LoRA weights, use the following command:
 
 ```bash
-python evaluation/open_ended/gen_model_answer_mt.py \
+python eval_utils/generate_answer.py \
   --base_model_path "meta-llama/Llama-2-7b-hf" \
   --template alpaca \
   --lora_path /path/to/your/lora/checkpoint

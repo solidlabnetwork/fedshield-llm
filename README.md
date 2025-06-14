@@ -80,6 +80,19 @@ python eval_utils/generate_answer.py \
   --template alpaca \
   --lora_path /path/to/your/lora/checkpoint
 ```
+
+## 📚 Citation
+
+If you use this project or codebase in your research or publication, please cite it as follows:
+```bash
+@article{mia2025fedshield,
+  title={FedShield-LLM: A Secure and Scalable Federated Fine-Tuned Large Language Model},
+  author={Mia, Md Jueal and Amini, M Hadi},
+  journal={arXiv preprint arXiv:2506.05640},
+  year={2025}
+}
+```
+
 ## Acknowledgements
 
 This repository is based on [**OpenFedLLM**](https://github.com/rui-ye/OpenFedLLM) thanks to the original authors for their works!

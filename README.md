@@ -85,7 +85,7 @@ python eval_utils/generate_answer.py \
 
 ## 📚 Citation
 
-If you use this project or codebase in your research or publication, please cite it as follows:
+If you use this paper or codebase in your research or publication, please cite it as follows:
 ```bash
 @article{mia2025fedshield,
   title={FedShield-LLM: A Secure and Scalable Federated Fine-Tuned Large Language Model},

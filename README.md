@@ -2,6 +2,8 @@
 
 FedShield-LLM is a novel framework that enables secure and efficient federated fine-tuning of Large Language Models (LLMs) across organizations while preserving data privacy. By combining pruning with Fully Homomorphic Encryption (FHE) for Low-Rank Adaptation (LoRA) parameters, FedShield-LLM allows encrypted computation on model updates, reducing the attack surface and mitigating inference attacks like membership inference and gradient inversion. Designed for **cross-silo federated environments**, the framework optimizes computational and communication efficiency, making it suitable for small and medium-sized organizations.
 
+![CHEESE!](method.jpg)
+
 📘 [Read the paper on arXiv](https://arxiv.org/abs/2506.05640)
 
 **Key Features:**

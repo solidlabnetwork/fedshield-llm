@@ -89,12 +89,11 @@ python eval_utils/generate_answer.py \
 
 If you use this paper or codebase in your research or publication, please cite it as follows:
 ```bash
-@article{mia2025quancrypt,
-  title={QuanCrypt-FL: Quantized homomorphic encryption with pruning for secure federated learning},
+@article{mia2025fedshield,
+  title={Fedshield-llm: A secure and scalable federated fine-tuned large language model},
   author={Mia, Md Jueal and Amini, M Hadi},
-  journal={IEEE Transactions on Artificial Intelligence},
-  year={2025},
-  publisher={IEEE}
+  journal={arXiv preprint arXiv:2506.05640},
+  year={2025}
 }
 ```
 
